@@ -32,7 +32,11 @@ export default class MyDocument extends Document {
           <meta property='og:image' content='https://melaniekat.com/static/facebook-open-graph.png' />
           <meta property='og:image:width' content='1200' />
           <meta property='og:image:height' content='630' />
-          <link rel='icon' href='https://zicklepop.com/static/favicon.ico' />
+          <meta name='twitter:title' content='Melanie Kat' />
+          <meta name='twitter:description' content='' />
+          <meta name='twitter:image' content='https://melaniekat.com/static/facebook-open-graph.png' />
+          <meta name='twitter:image:alt' content='logo for melaniekat.com' />
+          <link rel='icon' href='https://melaniekat.com/static/favicon.ico' />
           <link rel='apple-touch-icon' href='https://melaniekat.com/static/apple-touch-icon.png' />
         </Head>
         <body>
