@@ -34,6 +34,7 @@ const styles = {
   tarantula: style({ color: '#ffb1d5' }),
   purp: style({ color: '#ff07f2' }),
   hub: style({ color: '#2aa8b0' }),
+  neo: style({ color: '#ff3333' }),
 }
 
 const classNames = wrap({
@@ -94,7 +95,7 @@ export default () => (
             </a>
           </li>
           <li className={classNames.li}>
-            {'i make hatsune miku sing ska music on '}
+            {'i make miku sing ska on '}
             <a
               {...styles.miku}
               className={classNames.a}
@@ -121,7 +122,7 @@ export default () => (
               {...styles.purp}
               className={classNames.a}
               rel='me'
-              href='https://twitter.com/melkatbilbrey'
+              href='https://twitter.com/melkat39'
             >
               {'hellsite'}
             </a>
@@ -135,6 +136,18 @@ export default () => (
               href='http://givemel.cash'
             >
               {'givemel.cash'}
+            </a>
+            {'?'}
+          </li>
+          <li className={classNames.li}>
+            {'i learned to code on '}
+            <a
+              {...styles.neo}
+              className={classNames.a}
+              rel='me'
+              href='http://www.neopets.com/userlookup.phtml?user=melkat39'
+            >
+              {'neopets'}
             </a>
             {'?'}
           </li>
