@@ -149,7 +149,6 @@ export default () => (
             >
               {'neopets'}
             </a>
-            {'?'}
           </li>
           <li className={classNames.liLast}>
             {'artwork by '}
