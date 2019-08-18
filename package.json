@@ -1,0 +1,26 @@
+{
+  "name": "melaniekat.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "standard",
+    "test": "jest",
+    "deploy": "npm run build && aws s3 sync out/ s3://melaniekat.com"
+  },
+  "author": "Melanie Bilbrey",
+  "license": "ISC",
+  "dependencies": {
+    "dom": "0.0.3",
+    "glamor": "^2.20.40",
+    "glamor-tachyons": "^1.0.0-alpha.1",
+    "jest": "^22.4.4",
+    "next": "^4.2.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "standard": "^10.0.3"
+  }
+}
