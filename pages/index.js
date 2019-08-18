@@ -19,12 +19,6 @@ css.global('body, a', {
 })
 
 const styles = {
-  dotcom: style({
-    '&::after': {
-      content: '.com',
-      color: '#AAA'
-    }
-  }),
   bullet: style({
     '> li::before': {
       content: '*',
@@ -69,7 +63,6 @@ export default () => (
         />
         <h1 className={classNames.h1}>
           <a
-            {...styles.dotcom}
             className={t('no-underline')}
             href='/'
           >
