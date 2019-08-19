@@ -128,6 +128,17 @@ export default () => (
             </a>
           </li>
           <li className={classNames.li}>
+            {'i learned to code on '}
+            <a
+              {...styles.neo}
+              className={classNames.a}
+              rel='me'
+              href='http://www.neopets.com/userlookup.phtml?user=melkat39'
+            >
+              {'neopets'}
+            </a>
+          </li>
+          <li className={classNames.li}>
             {'do you need to '}
             <a
               {...styles.fun}
@@ -138,17 +149,6 @@ export default () => (
               {'givemel.cash'}
             </a>
             {'?'}
-          </li>
-          <li className={classNames.li}>
-            {'i learned to code on '}
-            <a
-              {...styles.neo}
-              className={classNames.a}
-              rel='me'
-              href='http://www.neopets.com/userlookup.phtml?user=melkat39'
-            >
-              {'neopets'}
-            </a>
           </li>
           <li className={classNames.liLast}>
             {'artwork by '}
