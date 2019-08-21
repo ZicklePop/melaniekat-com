@@ -22,25 +22,25 @@ const styles = {
   bullet: style({
     '> li::before': {
       content: '*',
-      color: '#AAA',
+      color: '#8F8F8F',
       width: '1rem',
       display: 'inline-block'
     }
   }),
-  fun: style({ color: '#69b200' }),
-  miku: style({ color: '#39c5bb' }),
-  mel: style({ color: '#00aeff' }),
-  sylveon: style({ color: '#f59bad' }),
-  tarantula: style({ color: '#ffb1d5' }),
-  purp: style({ color: '#ff07f2' }),
-  hub: style({ color: '#2aa8b0' }),
-  neo: style({ color: '#ff3333' })
+  gween: style({ color: '#65A300' }),
+  woyal: style({ color: '#005C9E' }),
+  mel: style({ color: '#0096DB' }),
+  pwink: style({ color: '#FF52A3' }),
+  pweach: style({ color: '#FF5757' }),
+  purp: style({ color: '#B24DFF' }),
+  weal: style({ color: '#29A0A8' }),
+  wed: style({ color: '#FF2929' })
 }
 
 const classNames = wrap({
   main: 'vh-100 dt w-100',
   container: 'dtc v-mid tc',
-  article: `measure-narrow center sans-serif f3 fw2 ph2`,
+  article: 'measure-narrow center sans-serif f3 fw2 ph2',
   h1: 'lh-title fw2 f2',
   ul: 'list pl0 tl',
   li: 'lh-title mv2',
@@ -86,7 +86,7 @@ export default () => (
           <li className={classNames.li}>
             {'i post pics on '}
             <a
-              {...styles.sylveon}
+              {...styles.pwink}
               className={classNames.a}
               rel='me'
               href='https://instagram.com/ZicklePop'
@@ -97,7 +97,7 @@ export default () => (
           <li className={classNames.li}>
             {'i make miku sing ska on '}
             <a
-              {...styles.miku}
+              {...styles.woyal}
               className={classNames.a}
               rel='me'
               href='https://soundcloud.com/ZicklePop'
@@ -108,7 +108,7 @@ export default () => (
           <li className={classNames.li}>
             {'i make siri shortcuts on '}
             <a
-              {...styles.hub}
+              {...styles.weal}
               className={classNames.a}
               rel='me'
               href='https://routinehub.co/user/zicklepop'
@@ -130,7 +130,7 @@ export default () => (
           <li className={classNames.li}>
             {'i learned to code on '}
             <a
-              {...styles.neo}
+              {...styles.wed}
               className={classNames.a}
               rel='me'
               href='http://www.neopets.com/userlookup.phtml?user=melkat39'
@@ -141,7 +141,7 @@ export default () => (
           <li className={classNames.li}>
             {'do you need to '}
             <a
-              {...styles.fun}
+              {...styles.gween}
               className={classNames.a}
               rel='me'
               href='http://givemel.cash'
@@ -153,7 +153,7 @@ export default () => (
           <li className={classNames.liLast}>
             {'artwork by '}
             <a
-              {...styles.tarantula}
+              {...styles.pweach}
               className={classNames.a}
               href='https://www.uglytarantula.com'
             >
