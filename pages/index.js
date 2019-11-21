@@ -108,7 +108,7 @@ export default () => (
           <li className={classNames.li}>
             {'i tweet on the '}
             <a
-              {...styles.purp}
+              {...styles.pwink}
               className={classNames.a}
               rel='me'
               href='https://twitter.com/melkat39'
@@ -119,7 +119,7 @@ export default () => (
           <li className={classNames.li}>
             {'i play games on '}
             <a
-              {...styles.wed}
+              {...styles.purp}
               className={classNames.a}
               rel='me'
               href='https://twitch.tv/melkat39'
@@ -128,7 +128,7 @@ export default () => (
             </a>
             {' & '}
             <a
-              {...styles.pwink}
+              {...styles.wed}
               className={classNames.a}
               rel='me'
               href='https://www.youtube.com/channel/UCslys3G1X4VbjNPPclfmwDQ'
