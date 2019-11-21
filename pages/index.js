@@ -84,17 +84,6 @@ export default () => (
             </a>
           </li>
           <li className={classNames.li}>
-            {'i post pics on '}
-            <a
-              {...styles.pwink}
-              className={classNames.a}
-              rel='me'
-              href='https://instagram.com/ZicklePop'
-            >
-              {'instagram'}
-            </a>
-          </li>
-          <li className={classNames.li}>
             {'i make miku sing ska on '}
             <a
               {...styles.woyal}
@@ -128,14 +117,23 @@ export default () => (
             </a>
           </li>
           <li className={classNames.li}>
-            {'i learned to code on '}
+            {'i play games on '}
             <a
               {...styles.wed}
               className={classNames.a}
               rel='me'
-              href='http://www.neopets.com/userlookup.phtml?user=melkat39'
+              href='https://twitch.tv/melkat39'
             >
-              {'neopets'}
+              {'twitch'}
+            </a>
+            {' & '}
+            <a
+              {...styles.pwink}
+              className={classNames.a}
+              rel='me'
+              href='https://www.youtube.com/channel/UCslys3G1X4VbjNPPclfmwDQ'
+            >
+              {'yt'}
             </a>
           </li>
           <li className={classNames.li}>
