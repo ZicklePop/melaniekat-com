@@ -78,9 +78,9 @@ export default () => (
               {...styles.mel}
               className={classNames.a}
               rel='me'
-              href='https://melkat.links'
+              href='https://melkat.link'
             >
-              {'melkat.links'}
+              {'melkat.link'}
             </a>
           </li>
           <li className={classNames.li}>
