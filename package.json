@@ -8,7 +8,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "standard",
-    "test": "jest",
+    "test": "npm run lint",
     "deploy": "npm run build && aws s3 sync out/ s3://melaniekat.com && npm run clear-cache",
     "clear-cache": "aws cloudfront create-invalidation --distribution-id=E1HAQEND4B08VJ --paths /"
   },
@@ -20,8 +20,8 @@
     "glamor-tachyons": "^1.0.0-alpha.1",
     "jest": "^22.4.4",
     "next": "^4.2.3",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "standard": "^10.0.3"
   }
 }
