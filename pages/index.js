@@ -73,6 +73,17 @@ export default () => (
 
         <ul {...styles.bullet} className={classNames.ul}>
           <li className={classNames.li}>
+            {'i link blog at '}
+            <a
+              {...styles.mel}
+              className={classNames.a}
+              rel='me'
+              href='https://melkat.links'
+            >
+              {'melkat.links'}
+            </a>
+          </li>
+          <li className={classNames.li}>
             {'i code at '}
             <a
               {...styles.mel}
@@ -81,17 +92,6 @@ export default () => (
               href='https://melkat.dev'
             >
               {'melkat.dev'}
-            </a>
-          </li>
-          <li className={classNames.li}>
-            {'i make miku sing ska on '}
-            <a
-              {...styles.woyal}
-              className={classNames.a}
-              rel='me'
-              href='https://soundcloud.com/ZicklePop'
-            >
-              {'soundcloud'}
             </a>
           </li>
           <li className={classNames.li}>
@@ -106,14 +106,25 @@ export default () => (
             </a>
           </li>
           <li className={classNames.li}>
-            {'i tweet on the '}
+            {'i have a gif library at '}
             <a
               {...styles.pwink}
               className={classNames.a}
               rel='me'
-              href='https://twitter.com/melkat39'
+              href='https://myhot.pics'
             >
-              {'hellsite'}
+              {'myhot.pics'}
+            </a>
+          </li>
+          <li className={classNames.li}>
+            {'i make miku sing ska on '}
+            <a
+              {...styles.woyal}
+              className={classNames.a}
+              rel='me'
+              href='https://soundcloud.com/ZicklePop'
+            >
+              {'soundcloud'}
             </a>
           </li>
           <li className={classNames.li}>
