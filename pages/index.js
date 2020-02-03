@@ -95,17 +95,6 @@ export default () => (
             </a>
           </li>
           <li className={classNames.li}>
-            {'i make siri shortcuts on '}
-            <a
-              {...styles.weal}
-              className={classNames.a}
-              rel='me'
-              href='https://routinehub.co/user/zicklepop'
-            >
-              {'routinehub'}
-            </a>
-          </li>
-          <li className={classNames.li}>
             {'i have a gif library at '}
             <a
               {...styles.pwink}
@@ -114,6 +103,17 @@ export default () => (
               href='https://myhot.pics'
             >
               {'myhot.pics'}
+            </a>
+          </li>
+          <li className={classNames.li}>
+            {'i make siri shortcuts on '}
+            <a
+              {...styles.weal}
+              className={classNames.a}
+              rel='me'
+              href='https://routinehub.co/user/zicklepop'
+            >
+              {'routinehub'}
             </a>
           </li>
           <li className={classNames.li}>
