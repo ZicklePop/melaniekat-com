@@ -29,11 +29,11 @@ exports[`page - index should render 1`] = `
         className="jsx-4168855969 list pl0 tl"
       >
         <li
-          className="jsx-4168855969 lh-title mv2"
+          className="lh-title mv2"
         >
           i link blog at 
           <a
-            className="jsx-4168855969 link underline"
+            className="link underline"
             href="https://melkat.link"
             rel="me"
             style={
@@ -44,13 +44,14 @@ exports[`page - index should render 1`] = `
           >
             melkat.link
           </a>
+          
         </li>
         <li
-          className="jsx-4168855969 lh-title mv2"
+          className="lh-title mv2"
         >
           i code at 
           <a
-            className="jsx-4168855969 link underline"
+            className="link underline"
             href="https://melkat.dev"
             rel="me"
             style={
@@ -61,14 +62,33 @@ exports[`page - index should render 1`] = `
           >
             melkat.dev
           </a>
+          
         </li>
         <li
-          className="jsx-4168855969 lh-title mv2"
+          className="lh-title mv2"
         >
-          i have a gif library at 
+          my gif library is at 
           <a
-            className="jsx-4168855969 link underline"
+            className="link underline"
             href="https://myhot.pics"
+            rel="me"
+            style={
+              Object {
+                "color": "#0096DB",
+              }
+            }
+          >
+            myhot.pics
+          </a>
+          
+        </li>
+        <li
+          className="lh-title mb2 mt4"
+        >
+          i make siri shortcuts on 
+          <a
+            className="link underline"
+            href="https://routinehub.co/user/zicklepop"
             rel="me"
             style={
               Object {
@@ -76,79 +96,16 @@ exports[`page - index should render 1`] = `
               }
             }
           >
-            myhot.pics
-          </a>
-        </li>
-        <li
-          className="jsx-4168855969 lh-title mv2"
-        >
-          i make siri shortcuts on 
-          <a
-            className="jsx-4168855969 link underline"
-            href="https://routinehub.co/user/zicklepop"
-            rel="me"
-            style={
-              Object {
-                "color": "#29A0A8",
-              }
-            }
-          >
             routinehub
           </a>
+          
         </li>
         <li
-          className="jsx-4168855969 lh-title mv2"
-        >
-          i make miku sing ska on 
-          <a
-            className="jsx-4168855969 link underline"
-            href="https://soundcloud.com/ZicklePop"
-            rel="me"
-            style={
-              Object {
-                "color": "#005C9E",
-              }
-            }
-          >
-            soundcloud
-          </a>
-        </li>
-        <li
-          className="jsx-4168855969 lh-title mv2"
-        >
-          i play games on 
-          <a
-            className="jsx-4168855969 link underline"
-            href="https://twitch.tv/melkat39"
-            rel="me"
-            style={
-              Object {
-                "color": "#B24DFF",
-              }
-            }
-          >
-            twitch
-          </a>
-           & 
-          <a
-            className="jsx-4168855969 link underline"
-            href="https://www.youtube.com/channel/UCslys3G1X4VbjNPPclfmwDQ"
-            rel="me"
-            style={
-              Object {
-                "color": "#FF2929",
-              }
-            }
-          >
-            yt
-          </a>
-        </li>
-        <li
-          className="jsx-4168855969 lh-title mv2"
+          className="lh-title mv2"
         >
           do you need to 
           <a
-            className="jsx-4168855969 link underline"
+            className="link underline"
             href="http://givemel.cash"
             rel="me"
             style={
@@ -162,11 +119,11 @@ exports[`page - index should render 1`] = `
           ?
         </li>
         <li
-          className="jsx-4168855969 lh-title mb2 mt4"
+          className="lh-title mb2 mt4"
         >
           artwork by 
           <a
-            className="jsx-4168855969 link underline"
+            className="link underline"
             href="https://www.uglytarantula.com"
             style={
               Object {
@@ -176,6 +133,7 @@ exports[`page - index should render 1`] = `
           >
             Ugly Tarantula
           </a>
+          
         </li>
       </ul>
     </article>
