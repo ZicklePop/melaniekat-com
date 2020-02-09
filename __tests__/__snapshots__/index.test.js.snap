@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page - index should render 1`] = `
+<main
+  className="jsx-2720692559  vh-100 dt w-100"
+>
+  <div
+    className="jsx-4168855969 dtc v-mid tc"
+  >
+    <article
+      className="jsx-4168855969 measure-narrow center sans-serif f3 fw2 ph2"
+    >
+      <img
+        className="jsx-4168855969 br-100 h5 w5 center dib ma3"
+        src="/static/uglytarantula-commission.jpg"
+        title="commission by @uglytarantula"
+      />
+      <h1
+        className="jsx-4168855969 lh-title fw2 f2"
+      >
+        <a
+          className="jsx-4168855969 no-underline"
+          href="/"
+        >
+          Hi! My name is Melanie.
+        </a>
+      </h1>
+      <ul
+        className="jsx-4168855969 list pl0 tl"
+      >
+        <li
+          className="jsx-4168855969 lh-title mv2"
+        >
+          i link blog at 
+          <a
+            className="jsx-4168855969 link underline"
+            href="https://melkat.link"
+            rel="me"
+            style={
+              Object {
+                "color": "#0096DB",
+              }
+            }
+          >
+            melkat.link
+          </a>
+        </li>
+        <li
+          className="jsx-4168855969 lh-title mv2"
+        >
+          i code at 
+          <a
+            className="jsx-4168855969 link underline"
+            href="https://melkat.dev"
+            rel="me"
+            style={
+              Object {
+                "color": "#0096DB",
+              }
+            }
+          >
+            melkat.dev
+          </a>
+        </li>
+        <li
+          className="jsx-4168855969 lh-title mv2"
+        >
+          i have a gif library at 
+          <a
+            className="jsx-4168855969 link underline"
+            href="https://myhot.pics"
+            rel="me"
+            style={
+              Object {
+                "color": "#FF52A3",
+              }
+            }
+          >
+            myhot.pics
+          </a>
+        </li>
+        <li
+          className="jsx-4168855969 lh-title mv2"
+        >
+          i make siri shortcuts on 
+          <a
+            className="jsx-4168855969 link underline"
+            href="https://routinehub.co/user/zicklepop"
+            rel="me"
+            style={
+              Object {
+                "color": "#29A0A8",
+              }
+            }
+          >
+            routinehub
+          </a>
+        </li>
+        <li
+          className="jsx-4168855969 lh-title mv2"
+        >
+          i make miku sing ska on 
+          <a
+            className="jsx-4168855969 link underline"
+            href="https://soundcloud.com/ZicklePop"
+            rel="me"
+            style={
+              Object {
+                "color": "#005C9E",
+              }
+            }
+          >
+            soundcloud
+          </a>
+        </li>
+        <li
+          className="jsx-4168855969 lh-title mv2"
+        >
+          i play games on 
+          <a
+            className="jsx-4168855969 link underline"
+            href="https://twitch.tv/melkat39"
+            rel="me"
+            style={
+              Object {
+                "color": "#B24DFF",
+              }
+            }
+          >
+            twitch
+          </a>
+           & 
+          <a
+            className="jsx-4168855969 link underline"
+            href="https://www.youtube.com/channel/UCslys3G1X4VbjNPPclfmwDQ"
+            rel="me"
+            style={
+              Object {
+                "color": "#FF2929",
+              }
+            }
+          >
+            yt
+          </a>
+        </li>
+        <li
+          className="jsx-4168855969 lh-title mv2"
+        >
+          do you need to 
+          <a
+            className="jsx-4168855969 link underline"
+            href="http://givemel.cash"
+            rel="me"
+            style={
+              Object {
+                "color": "#65A300",
+              }
+            }
+          >
+            givemel.cash
+          </a>
+          ?
+        </li>
+        <li
+          className="jsx-4168855969 lh-title mb2 mt4"
+        >
+          artwork by 
+          <a
+            className="jsx-4168855969 link underline"
+            href="https://www.uglytarantula.com"
+            style={
+              Object {
+                "color": "#FF5757",
+              }
+            }
+          >
+            Ugly Tarantula
+          </a>
+        </li>
+      </ul>
+    </article>
+  </div>
+</main>
+`;

@@ -1,49 +1,35 @@
-import Document, { Head, Main, NextScript } from 'next/document'
-import { renderStatic } from 'glamor/server'
+import React from 'react'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-export default class MyDocument extends Document {
-  static async getInitialProps ({ renderPage }) {
-    const page = renderPage()
-    const styles = renderStatic(() => page.html)
-    return { ...page, ...styles }
-  }
-
-  constructor (props) {
-    super(props)
-    const { __NEXT_DATA__, ids } = props
-    if (ids) {
-      __NEXT_DATA__.ids = this.props.ids
-    }
+class MyDocument extends Document {
+  static async getInitialProps (ctx) {
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
   }
 
   render () {
     return (
-      <html lang='en'>
+      <Html>
         <Head>
-          <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
-          <meta charset='utf-8' />
-          <meta name='description' content='' />
-          <meta name='keywords' content='' />
-          <meta name='viewport' content='width=device-width' />
-          <meta property='og:title' content='Melanie Kat' />
-          <meta property='og:description' content='' />
-          <meta property='og:url' content='https://melaniekat.com' />
+          <link rel='apple-touch-icon' href='/static/apple-touch-icon.png' />
+          <link rel='icon' href='/static/favicon.ico' />
+          <meta charSet='utf-8' />
+          <meta name='keywords' content='melkat, melanie, kat' />
+          <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <meta property='og:type' content='website' />
-          <meta property='og:image' content='https://melaniekat.com/static/facebook-open-graph.png' />
-          <meta property='og:image:width' content='1200' />
-          <meta property='og:image:height' content='630' />
-          <meta name='twitter:title' content='Melanie Kat' />
-          <meta name='twitter:description' content='' />
-          <meta name='twitter:image' content='https://melaniekat.com/static/facebook-open-graph.png' />
+          <meta name='twitter:image' content='/static/facebook-open-graph.png' />
           <meta name='twitter:image:alt' content='logo for melaniekat.com' />
-          <link rel='icon' href='https://melaniekat.com/static/favicon.ico' />
-          <link rel='apple-touch-icon' href='https://melaniekat.com/static/apple-touch-icon.png' />
+          <meta property='og:image' content='/static/facebook-open-graph.png' />
+          <meta property='og:image:height' content='630' />
+          <meta property='og:image:width' content='1200' />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     )
   }
 }
+
+export default MyDocument

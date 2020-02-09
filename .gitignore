@@ -1,6 +1,4 @@
-node_modules
-.next
-/out
-.DS_Store
-npm-debug.log*
-package-lock.json
+.next/*
+node_modules/*
+out/*
+DS_Store
